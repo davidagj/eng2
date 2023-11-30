@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/variable.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/search.css">
+    <link rel="stylesheet" href="../styles/customBS.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+</head>
+<body class="flex-column">
+    <div class="header flex-row bk-black j-arround ">
+        <div class="header__left">
+            <a href="./home.html">
+                <img src="../../assets/WhatsApp Image 2023-11-02 at 12.20.35.jpeg" alt="logo" srcset="">
+            </a>
+        </div>
+        <div class="header__right flex-column j-center">
+            <a class="right__a" href="./signin.html">
+                Faça seu login
+            </a>
+            <a class="right__a" href="./signup.html">
+                Cadastre-se
+            </a>
+        </div>
+    </div>
+    <div class="content bk-black flex-column a-center">
+        <div class="content__filters w-75 bk-white flex-row j-arround a-center">
+            <div class="flex-column h-100 flex-column j-center a-start">
+                <select class="filters__select" value="" id="profission">
+                    <option value="">Buscar profissional</option>
+                </select>
+                <label class="filters__label" for="profission">Digite aqui o que você procura</label>
+            </div> 
+            <div class="flex-column h-100 flex-column a-start j-center">
+                <select class="filters__select" name="" id="city">
+                    <option value="">Cidade</option>
+                </select>
+                <label class="filters__label" for="city">Digite aqui a cidade</label>
+            </div>
+            <div class="flex-column h-100 flex-column a-start j-center">
+                <select class="filters__select" name="" id="neighborhood">
+                    <option value="">Bairro</option>
+                </select>
+                <label class="filters__label" for="neighborhood">Digite o bairro ou ponto de referência</label>
+            </div>
+            <div class="flex-column h-100 flex-column a-start j-center">
+                <select class="filters__select" name="" id="filters">
+                    <option value="">Filtros</option>
+                </select>
+                <label class="filters__label" for="filters">Selecione os filtros</label>
+            </div>
+            <button id="submit-filters" class="filters__bttn" >Buscar</button>
+        </div>
+        <div class="content__search bk-grey flex-column w-100 a-center">
+            <p>
+                Exibindo resultados de: Arquiteto na cidade de Sorocaba próximo ao bairro Campolim, 
+                odernado por profissionais mais bem avaliados e maior tempo de experiência</p>
+            <div class="search__container flex-row a-center">
+                <div class="container__left flex-column">
+                    <div class="left__card flex-row bk-white ">
+                        <div class="card__left">
+                            <img class="left_img" src="../../assets/tofo-patricia-souza.png" alt="">
+                        </div>
+                        <div class="card__center flex-column w-50 ">
+                            <h1 class="center__title">Patrícia de Souza</h1>
+                            <p class="center__subtitle">Arquiteta e urbanista</p>
+                            <p class="center__p">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide 
+                                electram sadipscing et per. Suco de cevadiss deixa as pessoas mais interessantis. Quem 
+                                num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê 
+                                os tombis que eu levo!</p>
+                            <div class="center__bttn flex-row">
+                                <button class="bttn__perfil">Ver perfil</button>
+                                <button class="bttn__message">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                        <div class="card__right flex-column w-25 a-center">
+                            <div class="right__icon">
+                                <img class="icon__img" src="../../assets/icone-add-contato-positivo.svg" alt="">
+                                <img class="icon__img" src="../../assets/icone-estrela-favoritar-positivo.svg" alt="">
+                            </div>
+                            <p class="right__text">Atendimento</p>
+                            <div class="right__star flex-row">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                            </div>
+                            <p class="right__text">Preço justo</p>
+                            <div class="right__thumbs flex-row">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                            </div>
+                            <p class="right__text">Confiável</p>
+                            <div class="right__heart flex-row">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left__card flex-row w-75 bk-white ">
+                        <div class="card__left">
+                            <img class="left_img" src="../../assets/foto-jose-alves.png" alt="">
+                        </div>
+                        <div class="card__center flex-column w-50 ">
+                            <h1 class="center__title">José Alves</h1>
+                            <p class="center__subtitle">Arquiteto</p>
+                            <p class="center__p">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide 
+                                electram sadipscing et per. Suco de cevadiss deixa as pessoas mais interessantis. Quem 
+                                num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê 
+                                os tombis que eu levo!</p>
+                            <div class="center__bttn flex-row">
+                                <button class="bttn__perfil">Ver perfil</button>
+                                <button class="bttn__message">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                        <div class="card__right flex-column w-25 a-center">
+                            <div class="right__icon">
+                                <img class="icon__img" src="../../assets/icone-add-contato-positivo.svg" alt="">
+                                <img class="icon__img" src="../../assets/icone-estrela-favoritar-positivo.svg" alt="">
+                            </div>
+                            <p class="right__text">Atendimento</p>
+                            <div class="right__star flex-row">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                            </div>
+                            <p class="right__text">Preço justo</p>
+                            <div class="right__thumbs flex-row">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                            </div>
+                            <p class="right__text">Confiável</p>
+                            <div class="right__heart flex-row">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__right">
+                    <img src="../../assets/banner-tokstok.png" alt="" class="right__image">
+                </div>
+            </div>
+            <div class="search__container flex-row a-center">
+                <div class="container__left flex-column">
+                    <div class="left__card flex-row bk-white ">
+                        <div class="card__left">
+                            <img class="left_img" src="../../assets/foto-casa3.png" alt="">
+                        </div>
+                        <div class="card__center flex-column w-50 ">
+                            <h1 class="center__title">Casa 3 Arquitetura</h1>
+                            <p class="center__subtitle">Arquitetos associados</p>
+                            <p class="center__p">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide 
+                                electram sadipscing et per. Suco de cevadiss deixa as pessoas mais interessantis. Quem 
+                                num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê 
+                                os tombis que eu levo!</p>
+                            <div class="center__bttn flex-row">
+                                <button class="bttn__perfil">Ver perfil</button>
+                                <button class="bttn__message">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                        <div class="card__right flex-column w-25 a-center">
+                            <div class="right__icon">
+                                <img class="icon__img" src="../../assets/icone-add-contato-positivo.svg" alt="">
+                                <img class="icon__img" src="../../assets/icone-estrela-favoritar-positivo.svg" alt="">
+                            </div>
+                            <p class="right__text">Atendimento</p>
+                            <div class="right__star flex-row">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                            </div>
+                            <p class="right__text">Preço justo</p>
+                            <div class="right__thumbs flex-row">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                            </div>
+                            <p class="right__text">Confiável</p>
+                            <div class="right__heart flex-row">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- editar aqui img erro banner -->
+                    <div class="left__card flex-row w-75 bk-white ">
+                        <div class="card__left">
+                            <img class="left_img" src="../../assets/tofo-patricia-souza.png" alt="">
+                        </div>
+                        <div class="card__center flex-column w-50 ">
+                            <h1 class="center__title">Patrícia de Souza</h1>
+                            <p class="center__subtitle">Arquiteta e urbanista</p>
+                            <p class="center__p">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide 
+                                electram sadipscing et per. Suco de cevadiss deixa as pessoas mais interessantis. Quem 
+                                num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê 
+                                os tombis que eu levo!</p>
+                            <div class="center__bttn flex-row">
+                                <button class="bttn__perfil">Ver perfil</button>
+                                <button class="bttn__message">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                        <div class="card__right flex-column w-25 a-center">
+                            <div class="right__icon">
+                                <img class="icon__img" src="../../assets/icone-add-contato-positivo.svg" alt="">
+                                <img class="icon__img" src="../../assets/icone-estrela-favoritar-positivo.svg" alt="">
+                            </div>
+                            <p class="right__text">Atendimento</p>
+                            <div class="right__star flex-row">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                            </div>
+                            <p class="right__text">Preço justo</p>
+                            <div class="right__thumbs flex-row">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                            </div>
+                            <p class="right__text">Confiável</p>
+                            <div class="right__heart flex-row">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- acaba aqui a entrada do banner erro -->
+                <div class="container__right">
+                    <img src="../../assets/banner-todeschini.png" alt="" class="right__image">
+                </div>
+            </div>
+            <div class="search__container flex-row a-center">
+                <div class="container__left flex-column">
+                    <div class="left__card flex-row bk-white ">
+                        <div class="card__left">
+                            <img class="left_img" src="../../assets/foto-usinna-arquitetura.png" alt="">
+                        </div>
+                        <div class="card__center flex-column w-50 ">
+                            <h1 class="center__title">Usinna Arquitetura</h1>
+                            <p class="center__subtitle">Arquitetura e paisagismo</p>
+                            <p class="center__p">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide 
+                                electram sadipscing et per. Suco de cevadiss deixa as pessoas mais interessantis. Quem 
+                                num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê 
+                                os tombis que eu levo!</p>
+                            <div class="center__bttn flex-row">
+                                <button class="bttn__perfil">Ver perfil</button>
+                                <button class="bttn__message">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                        <div class="card__right flex-column w-25 a-center">
+                            <div class="right__icon">
+                                <img class="icon__img" src="../../assets/icone-add-contato-positivo.svg" alt="">
+                                <img class="icon__img" src="../../assets/icone-estrela-favoritar-positivo.svg" alt="">
+                            </div>
+                            <p class="right__text">Atendimento</p>
+                            <div class="right__star flex-row">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                            </div>
+                            <p class="right__text">Preço justo</p>
+                            <div class="right__thumbs flex-row">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                            </div>
+                            <p class="right__text">Confiável</p>
+                            <div class="right__heart flex-row">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left__card flex-row w-75 bk-white ">
+                        <div class="card__left">
+                            <img class="left_img" src="../../assets/foto-roberto-gomes.png" alt="">
+                        </div>
+                        <div class="card__center flex-column w-50 ">
+                            <h1 class="center__title">Roberto Gomes Silvério</h1>
+                            <p class="center__subtitle">Arquiteta e urbanista</p>
+                            <p class="center__p">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide 
+                                electram sadipscing et per. Suco de cevadiss deixa as pessoas mais interessantis. Quem 
+                                num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê 
+                                os tombis que eu levo!</p>
+                            <div class="center__bttn flex-row">
+                                <button class="bttn__perfil">Ver perfil</button>
+                                <button class="bttn__message">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                        <div class="card__right flex-column w-25 a-center">
+                            <div class="right__icon">
+                                <img class="icon__img" src="../../assets/icone-add-contato-positivo.svg" alt="">
+                                <img class="icon__img" src="../../assets/icone-estrela-favoritar-positivo.svg" alt="">
+                            </div>
+                            <p class="right__text">Atendimento</p>
+                            <div class="right__star flex-row">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                                <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="">
+                            </div>
+                            <p class="right__text">Preço justo</p>
+                            <div class="right__thumbs flex-row">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                                <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="">
+                            </div>
+                            <p class="right__text">Confiável</p>
+                            <div class="right__heart flex-row">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                                <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__right">
+                    <img src="../../assets/banner-tokstok.png" alt="" class="right__image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer bk-white w-100 flex-row j-arround a-center">
+        <div class="footer__left flex-row j-between">
+            <div class="flex-column">
+                <h4 class="left__title">Quem somos?</h4>
+                <a class="left__link" href="">Sobre nós</a>
+                <a class="left__link" href="">Faça parte da Forbee</a>
+                <a class="left__link" href="">Contato</a>
+                <a class="left__link" href="">Imprensa</a>
+                <a class="left__link" href="">Dicas e reportagens</a>
+            </div>
+            <div class="flex-column">
+                <h4 class="left__title">Recursos</h4>
+                <a class="left__link" href="">Como funciona</a>
+                <a class="left__link" href="">Central de ajuda</a>
+                <a class="left__link" href="">Fórum da comunidade</a>
+                <a class="left__link" href="">Tutoriais para clientes</a>
+                <a class="left__link" href="">Tutoriais para profissionais</a>
+            </div>
+            <div class="flex-column">
+                <h4 class="left__title">Termos e condições</h4>
+                <a class="left__link" href="">Políticas Forbee</a>
+                <a class="left__link" href="">Termos de serviço</a>
+                <a class="left__link" href="">Política de privacidade</a>
+                <a class="left__link" href="">Utilização dos Cookies</a>                
+            </div>
+        </div>
+        <div class="footer__right">
+            <a href="./home.html">
+                <img src="../../assets/logo-white.jpg" alt="logo" srcset="">
+            </a>
+        </div>
+    </div>
+    <script src="../scripts/home.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
