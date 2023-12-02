@@ -14,9 +14,18 @@ body {
   }
 
   .header__right {
-    .right__a {
-      color: var(--header-font-color) !important;
-      padding-left: 600px;
+    .right__container {
+      padding-left: 550px;
+      .container__img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .right__a {
+        color: var(--header-font-color) !important;
+        padding-left: 4px;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -54,8 +63,19 @@ body {
   }
   
   .content__search {
+    gap: 20px;
+    border-bottom: 10px solid var(--yellow);
+    padding-bottom: 70px;
+    .search__p {
+      font-size: 90px;
+      font: var(--primary-font-color);
+      font-weight: bold;
+    }
+
     .search__container {
       .container__left {
+        gap: 20px;
+
         .left__card{
           gap: 50px;
           margin: 20px 0px 0px 50px;
