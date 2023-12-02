@@ -14,9 +14,18 @@ body {
   }
 
   .header__right {
-    .right__a {
-      color: var(--header-font-color) !important;
-      padding-left: 600px;
+    .right__container {
+      padding-left: 550px;
+      .container__img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .right__a {
+        color: var(--header-font-color) !important;
+        padding-left: 4px;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -57,7 +66,7 @@ body {
   .content__container {
 
     .content__carousel {
-      margin: 0px 20px 450px 20px;
+      margin: 0px 20px 200px 20px;
       
       .carousel__inner {
         margin: 0px 0px 0px 50px;
@@ -84,9 +93,7 @@ body {
           }
         }
       }
-      .carousel__button {
-        
-      }
+      
     }
 
     .content__star {

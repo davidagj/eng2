@@ -5,15 +5,16 @@ function createCarousel() {
   "../../assets/banner-bradesco.png"
 ];
   const elementoPai = document.getElementById('carousel-container');
-  
+  console.log(elementoPai);
+
   function createElement(value, index) {
     const newElement = document.createElement('div');
-    newElement.className='carousel__wrapper carousel-item' + (index === 0 ? ' active' : '');
+    newElement.className='carousel-item' + (index === 0 ? ' active' : '');
     const newImage = document.createElement('img');
-    newImage.className='wrapper__image d-block w-100';
+    newImage.className='d-block';
     newImage.src=value;
-    elementoPai.appendChild = (newElement);
-    newElement.appendChild = (newImage);
+    newElement.appendChild(newImage);
+    elementoPai.appendChild(newElement);
   }
   
   image.forEach(createElement);
