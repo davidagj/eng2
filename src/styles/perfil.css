@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0px !important;
+}
+
+.header {
+  .header__left  {
+
+  }
+  .header__center {
+  
+  }
+  .header__right { 
+
+  }
+}
+
+.content { 
+  .content__top { 
+    height: 100vh;
+    background-image:url('../../assets/foto-bgtop-pagina-perfil.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.footer {
+  height: 20%;
+  
+  .footer__left {
+    width: 40%;
+    
+    .left__title {
+      font-weight: bold;
+      color: var(--yellow);
+    }
+    .left__link {
+      color: var(--secondary-font-color);
+    }
+  }
+}
+
+#abacate {
+  padding: 0px 100px 0px 170px;
+  text-align: start;
+  background-color: white;
+  border-radius: 20px;
+}
