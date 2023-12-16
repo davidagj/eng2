@@ -48,3 +48,38 @@ body {
   background-color: white;
   border-radius: 20px;
 }
+
+#seeMore {
+  background:  var(---primary-font-color);
+  border: 0px;
+}
+
+#workIMG {
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+#work {
+  padding: 20px 50px 50px 50px;
+  gap: 20px;
+}
+
+#seeProjects {
+  border-radius: 20px;
+  text-align: center;
+  color: var(---primary-font-color);
+  background: var(--yellow);
+  border: 0px;
+  font-weight: bold;
+  width: 97%;
+  font-size: 20px;
+}
+
+#imgMap {
+  width: 90%;
+}
+
+#iconConta {
+  width: 2%;
+  align-items: flex-start;
+}

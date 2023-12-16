@@ -84,7 +84,7 @@
         </div>
     </div>
 
-    <div class="content w-100">
+    <div class="content w-100  flex-column">
         <div class="content__top flex-row j-arround">
             <img src="../../assets/tofo-patricia-souza.png" alt="fotoPerfil" width="15%" height="30%">
             <div></div>
@@ -102,12 +102,33 @@
         <div class="content__center bk-black w-100 flex-column">
             <div class="center__rate flex-row">
                 <div class="rate__container">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="card__right flex-column  j-center">
+                        <p class="right__text">Atendimento</p>
+                        <div class="right__star flex-row">
+                            <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="" width="30" height="30">
+                            <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="" width="30" height="30">
+                            <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="" width="30" height="30">
+                            <img class="star__img" src="../../assets/icone-estrela-atendimento.svg" alt="" width="30" height="30">
+                        </div>
+                        <p class="right__text">Preço justo</p>
+                        <div class="right__thumbs flex-row">
+                            <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="" width="30" height="30">
+                            <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="" width="30" height="30">
+                            <img  class="thumbs__img" src="../../assets/icone-joia-preco-justo.svg" alt="" width="30" height="30">
+                        </div>
+                        <p class="right__text">Confiável</p>
+                        <div class="right__heart flex-row">
+                            <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="" width="30" height="30">
+                            <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="" width="30" height="30">
+                            <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="" width="30" height="30">
+                            <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="" width="30" height="30">
+                            <img  class="heart__img" src="../../assets/icone-coracao-confiavel.svg" alt="" width="30" height="30">
+                        </div>
                 </div>
-                <div class="rate__comment bk-white flex-row">
-                    <img src="../../assets/foto-carlos-henrique.jpg" alt="">
+                <div class="card bk-white flex-row">
+                    <div>
+                        <img src="../../assets/foto-carlos-henrique.jpg" alt="" width="25%" height="70%">
+                    </div>
                     <div>
                         <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum
                             accumsan disputationi eu sit. Vide electram
@@ -115,10 +136,14 @@
                             pessoas mais interessantis.</p>
                          <h1>Carlos Henrique</h1>
                     </div>
-                    <img class="" src="../../assets//icone-bom.svg" alt="positivo">
+                    <div>
+                        <img class="" src="../../assets//icone-bom.svg" alt="positivo" width="30" height="30">
+                    </div>
                 </div>
-                <div class="rate__comment bk-white flex-row">
-                    <img src="../../assets/foto-usuario-sem-foto.jpg" alt="">
+                <div class="card bk-white flex-row">
+                    <div>
+                        <img src="../../assets/foto-usuario-sem-foto.jpg" alt="" width="30" height="30">
+                    </div>
                     <div>
                         <p>Vide electram sadipscing et per. Suco de cevadiss
                             deixa as pessoas mais interessantis.
@@ -126,18 +151,203 @@
                             accumsan disputationi eu sit.</p>
                          <h1>Larissa Machado</h1>
                     </div>
-                    <img class="" src="../../assets//icone-ruim.svg" alt="negativo">
+                    <div>
+                        <img class="" src="../../assets//icone-ruim.svg" alt="negativo" width="30" height="30">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark" id="seeMore">
+                    <img src="../../assets/seta-esquerda-avaliacoes-perfil.svg" alt="VerAvaliações" width="30" height="24">
+                </button><button type="button" class="btn btn-dark" id="seeMore">
+                    <img src="../../assets/seta-direita-avaliacoes-perfil.svg" alt="VerAvaliações" width="30" height="24">                   
+                </button>
+            </div>
+
+            <div class="rate__botton flex-row">
+                <button type="button" class="btn btn-dark" id="seeMore">
+                    <img src="../../assets/icone-olho-ver-avaliacoes-negativo.svg" alt="VerAvaliações" width="30" height="24">
+                    Ver todas avalições
+                </button>
+                <button type="button" class="btn btn-dark" id="seeMore">
+                    <img src="../../assets/icone-olho-ver-avaliacoes-negativo.svg" alt="VerAvaliações" width="30" height="24">
+                    Ver todas avalições
+                </button>
+            </div>
+
+        </div>
+            
+        <div class="flex-column bk-grey w-100">
+            <div class="flex-row">
+                <div>
+                    <img src="../../assets/foto-patricia-sobre-perfil.jpg" alt="">
+                </div>
+                <div>
+                    <h1>SOBRE</h1>
+                    <h2> Patrícia de Souza</h2>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
+                        Vide electram sadipscing et per. Suco de cevadiss deixa as pessoas mais
+                        interessantis. Quem num gosta di mé, boa gentis num é. Todo mundo vê os porris que
+                        eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                    <p>Pra lá , depois divoltis porris, paradis. Per aumento de cachacis, eu reclamis. Si num
+                        tem leite então bota uma pinga aí cumpadi! Viva Forevis aptent taciti sociosqu ad
+                        litora torquent</p>
+                    <p>Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis
+                        nisl. Quem manda na minha terra sou euzis! Mé faiz elementum girarzis, nisi eros
+                        vermeio. Paisis, filhis, espiritis santis.</p>
                 </div>
             </div>
-            <div class="rate__botton">
 
+            <div class="flex-row">
+                <div class="flex-column">
+                    <h1>O QUE FAÇO</h1>
+
+                    <div>
+                        <h2>Projetos arquitetônicos</h2>
+                        <p>Detraxit consequat et quo num tendi nada. Nec orci ornare consequat. Praesent
+                            lacinia ultrices consectetur. </p>
+                    </div>
+
+                    <div>
+                        <h2>Projetos urbanísticos</h2>
+                        <p>Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Pra lá , depois
+                            divoltis porris, paradis. Cevadis im ampola pa arma uma pindureta</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Regularização de documentação</h2>
+                    <p>Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Delegadis gente
+                        finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num
+                        morreus. A ordem dos tratores não altera o pão duris.</p>
+                    <p>Pra lá , depois divoltis porris, paradis. Per aumento de cachacis, eu reclamis. Si num
+                        tem leite então bota uma pinga aí cumpadi! Viva Forevis aptent taciti sociosqu ad
+                        litora torquent</p>
+                </div>
             </div>
         </div>
-        <div>
 
+        <div class="container__work" id="work">
+            <div class="container__nav">
+                <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">TRABALHOS</a>
+                    </div>  
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">                              
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Todos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    Projeto Arquitetônico
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Acompanhamento de obra 
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Comercial
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Residencial
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Interiores
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Projetos
+                                </a>
+                            </li>
+                         </ul> 
+                      </div>
+                    </div>           
+                </nav>
+            </div>
+            <div class="flex-column j-center" id="workIMG">
+                <div class="flex-row j-center">
+                    <div class="container-fluid">
+                        <img src="../../assets/foto1-trabalhos-perfil.jpg" alt="">
+                    </div>
+                    <div class="container-fluid">
+                        <img src="../../assets/foto2-trabalhos-perfil.jpg" alt="">
+                    </div>
+                    <div class="container-fluid">
+                        <img src="../../assets/foto3-trabalhos-perfil.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="container-fluid flex-row">
+                    <div class="container-fluid">
+                        <img src="../../assets/foto4-trabalhos-perfil.jpg" alt="">
+                    </div>
+                    <div class="container-fluid">
+                        <img src="../../assets/foto5-trabalhos-perfil.jpg" alt="">
+                    </div>
+                    <div class="container-fluid">
+                        <img src="../../assets/foto6-trabalhos-perfil.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="j-center">
+                <button class="" id="seeProjects">VER MAIS PROJETOS</button>
+            </div>
         </div>
-        <div>
 
+        <div class="container-fluid bk-grey flex-row w-100">
+            <div class="">
+                <img src="../../assets/mapa-localizacao-perfil.jpg" alt="mapa" id="imgMap">
+            </div>
+            <div class="flex-column w-50">
+                <h1>CONTATO</h1>
+                <h2>Patricia Souza</h2>
+                <div class="flex-row">
+                    <img src="../../assets/icone-celular-perfil.svg" alt="celular" id="iconConta">
+                    <h2>15 2345-6789</h2>
+                </div>
+                <div class="flex-row">
+                    <img src="../../assets/icone-whatsapp-perfil.svg" alt="" id="iconConta">
+                    <h2>15 98765-4321</h2>
+                </div>
+                <div class="flex-row">
+                    <img src="../../assets/icone-@-perfil.svg" alt="" id="iconConta">
+                    <h2>patricia@patriciasouzaarquitetura.com.br</h2>
+                </div>
+                <div class="flex-row">
+                    <img src="../../assets/icone-site-perfil.svg" alt="" id="iconConta">
+                    <h2>www.patriciasouzaarquitetura.com.br</h2>
+                </div>
+                <div class="flex-row">
+                    <img src="../../assets/icone-endereco-perfil.svg" alt="" id="iconConta">
+                    <h2>Avenida Antônio Carlos Cômitre, 1.310
+                        Parque Campolim - Sorocaba SP
+                        CEP 18765-432 </h2>
+                </div>               
+            </div>
+            
+            <div class="flex-column w-25">
+                <h1>CHAT</h1>
+                <div class="card w-75">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <img src="../../assets/icone-chat-caixa-mensagem-perfil.svg" alt="" width="20" height="20">
+                        With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+            </div>
+            
         </div>
     </div>
 
