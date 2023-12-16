@@ -55,8 +55,9 @@ body {
 }
 
 #workIMG {
-  gap: 40px;
+  gap: 30px;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 #work {
@@ -76,10 +77,78 @@ body {
 }
 
 #imgMap {
-  width: 90%;
+  width: 100%;
 }
 
 #iconConta {
-  width: 2%;
+  width: 4%;
   align-items: flex-start;
+  padding-top: 6px;
+}
+
+#contentBotton {
+  border-bottom: 15px var(--yellow) solid;
+  padding: 40px 20px 80px 0px;
+  gap: 3%;
+}
+
+#contentContat {
+  gap: 8px;
+}
+
+#contato {
+  width: 30%;
+  gap: 40px;
+  margin-top: 3%;
+}
+
+#textContato {
+  color: grey;
+  font-size: 20px;
+}
+
+#containerContato {
+  gap: 20px;
+}
+
+#chatP {
+  padding-bottom: 50%;
+}
+
+#btnChat {
+  margin-top: 65%;
+  width: 100%;
+}
+
+#chat {
+  margin-top: 3%;
+  width: 50%;
+  height: 100%;
+}
+
+#cardChat {
+  width: 65%;
+  height: 65%;
+  border-radius: 20px;
+  border: 2px grey solid;
+}
+
+#containerChatCont {
+  gap: 18%;
+}
+
+#sobre {
+  padding-bottom: 3%;
+}
+
+
+#rateText {
+  color: white;
+}
+
+#btnAchor {
+    border-radius: 20px;
+    padding: 0px 18px 0px 18px;
+    background-color: rgb(23, 23, 59);
+    border: 0px;
 }
